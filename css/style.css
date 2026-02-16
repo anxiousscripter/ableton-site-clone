@@ -24,7 +24,8 @@
 }
 
 body {
-  background-color: #f3f3f3;
+  background-color: #fafafa;
+  height: 3000px;
 }
 
 img {
@@ -43,4 +44,45 @@ a {
 
 section {
   padding: 2rem 0;
+}
+
+/* HEADER STYLING STARTS HERE */
+.header {
+  height: 10.5vh;
+  border-bottom: var(--border-separator);
+  padding: 0 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar div:first-child {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 2.5rem;
+}
+
+.navbar div:last-child {
+  display: flex;
+  height: 100%;
+}
+
+#logo {
+  width: 70px;
+  height: 100%;
+  background-image: url(../assets/icons/ableton-logo.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
