@@ -1,0 +1,46 @@
+:root {
+  /* Font Styles */
+  --font-brand: "Josefin Sans", sans-serif;
+
+  /* Brand Colors */
+  --color-brand-primary: #0000ff;
+  --color-brand-secondary: #d34312;
+
+  /* Accent Colors */
+  --color-bg-accent-1: #fbffa7;
+  --color-bg-accent-2: #b6ffc0;
+  --color-bg-accent-3: #d5b3ff;
+  --color-bg-accent-4: #b1c5ff;
+
+  /* Borders and Shadows */
+  --border-separator: 2px solid #eee;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-brand);
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+section {
+  padding: 2rem 0;
+}

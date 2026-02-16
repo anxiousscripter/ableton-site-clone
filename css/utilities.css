@@ -1,0 +1,28 @@
+.wrapper {
+  width: min(1100px, 90%);
+  margin: auto;
+  border: 1px solid red;
+}
+
+.highlight-primary {
+  color: var(--color-brand-primary);
+}
+
+.highlight-secondary {
+  color: var(--color-brand-secondary);
+}
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
