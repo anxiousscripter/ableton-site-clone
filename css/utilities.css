@@ -1,7 +1,6 @@
 .wrapper {
-  width: min(1100px, 90%);
+  width: max(1100px, 95%);
   margin: auto;
-  border: 1px solid red;
 }
 
 .highlight-primary {

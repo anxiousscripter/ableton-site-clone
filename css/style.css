@@ -24,7 +24,6 @@
 }
 
 body {
-  background-color: #fafafa;
   height: 3000px;
 }
 
@@ -51,6 +50,7 @@ section {
   height: 10.5vh;
   border-bottom: var(--border-separator);
   padding: 0 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .navbar {
@@ -79,10 +79,30 @@ section {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .navbar-links {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+}
+
+/* HERO SECTION STYLING */
+.hero .container {
+  width: 90%;
+  margin: auto;
+  height: 85vh;
+  background-image: url(../assets/stock_images/hero-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  color: var(--color-brand-secondary);
+  font-size: 8rem;
 }
